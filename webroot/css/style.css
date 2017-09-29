@@ -1,0 +1,573 @@
+body, html,#container {
+    height: 100%;
+    width: 100%;
+}
+#map_canvas {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#map_canvas {
+    position: relative;
+}
+
+#content-left {
+    width: 25%;
+    float: left;
+    height: 100%;
+    width: 25%
+}
+#list_records{
+    height: 80%;
+    overflow: auto;
+}
+#content-right {
+    float: right;
+    width: 75%;
+    height: 100%;
+}
+#content-right-inner {
+    height: 100%;
+    overflow: auto;
+}
+#logout{
+    float: right;
+    padding: 0px;
+    line-height: 10px;
+}
+.showMap{
+    cursor: pointer;
+    padding-left: 30px !important;
+    padding: 5px;    
+}
+.showMapMB{
+    padding: 5px;    
+    cursor: pointer;
+}
+.showData{text-align: right;cursor: pointer;padding: 5px}
+.fix-menu{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 0 20px 10px;
+    cursor: pointer;
+    background: #ccc;
+}
+.fix-menu > span{
+    float: left;
+    margin-right: 13px;
+    margin-top: 5px;
+}
+.fix-menu-user > span{
+    margin-top: 0px;
+}
+.fix-menu .image-version > img{
+    height: 0%;
+}
+.fix-menu .image-version{
+    position: relative
+}
+.fix-title{
+    padding-left: 15px;
+    font-family: Century Gothic;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+}
+.fix-img-index{
+    height: 44px;
+}
+.fix-title02{
+    text-align: right;
+    margin-right: 38px;
+    color: #fff;
+    font-weight: bold;
+}
+.fix-menu p{
+    margin-bottom: 0px;
+    font-family: Century Gothic;
+
+}
+.fix-table{width: 85% !important;font-size: 18px;}
+.fix-table td{font-size: 14px;}
+.fix-pd{padding: 2.5px !important}
+.icon-table td{font-size: 16px;}
+.icon-table tr:nth-child(1) td{text-align: center !important};
+.imgFirst{height: 50px !important;}
+.imageRoute{height: 300px !important;cursor: pointer;}
+#detail_route{margin-top: 20px;}
+.content-table{
+    max-height: 700px ;
+    overflow: auto;
+}
+#content-left .imgFirst{
+    /*height: 100px !important;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+    height: auto;    
+}
+#content-left .showDataMB .imgFirst{
+    left: 43%;
+}
+.viewMap {
+    position: relative;
+}
+#cameraMap {
+    position: absolute;
+    top: 654px;
+    left: 65px;
+    z-index: 1000;
+    background: url(../img/camera.png) no-repeat;
+    background-size: 60px;
+    text-indent: -9999px;
+    width: 64px;
+    height: 46px;
+    border: none;
+}
+.opaCamera {
+    opacity: 0.4;
+}
+#clearMarker, #showMarker {
+    display: none;
+}
+
+/*#clearMarker {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#showMarker {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}*/
+#showMap, #showCamera, #showDate {
+    position: absolute;
+    bottom: 20px;
+    display: block;
+    text-indent: -9999px;
+    width: 30px;
+    height: 30px;
+    padding: 0 !important;
+}
+#selectMinute {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 30px;
+    width: 100px;
+}
+
+#showMap {
+    left: 20px;
+    background: url('../img/map.jpg') top left no-repeat transparent;
+}
+#showDate {
+    left: 70px;
+    background: url('../img/date.png') top left no-repeat transparent;
+}
+#showCamera {
+    left: 120px;
+    background: url('../img/camera.jpg') top left no-repeat transparent;
+}
+.activeMap {
+    background: url('../img/mapActive.jpg') top left no-repeat transparent !important;
+}
+.activeDate {
+    background: url('../img/dateActive.png') top left no-repeat transparent !important;
+}
+.activeDate2 {
+    background: url('../img/dateActive2.png') top left no-repeat transparent !important;
+}
+.activeCamera {
+    background: url('../img/cameraActive.jpg') top left no-repeat transparent !important;
+}
+.activeCamera2 {
+    background: url('../img/cameraActive2.jpg') top left no-repeat transparent !important;
+}
+
+.gm-style-iw + div {display: none;}
+.gm-style-iw {
+    width: 300px !important;
+    top: 10px !important;
+    left:10px !important;
+    cursor: pointer !important;
+}
+.briteClass,.briteClass1 {
+    width: 320px !important;
+    background: #fff !important;
+    cursor: pointer !important;
+}
+.brite-div-img {
+    overflow: hidden;
+    background: #fff;
+}
+
+.brite-div-img div {
+    width: 300px;
+    max-height: 300px;
+    /* margin: 10px;*/
+    overflow: hidden;
+}
+.checkbox-download {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 19px;
+    height: 19px;
+}
+
+#menuDropdown ul {
+    padding: 0; margin:0;
+}
+#menuDropdown ul li {
+    list-style: none;
+    padding: 5px 30px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #333;
+}
+#menuDropdown ul li.active {
+    font-weight: bold;
+}
+
+/**khoant 2016/11/15 **/
+.showData {
+    display: table;
+}
+.showData a {
+    display: table-cell;
+    vertical-align: middle;
+}
+/* bình css 17/11/2016*/
+.title-top{
+    background: url('../img/icon-home04.png') no-repeat transparent;
+    background-size: 100% 100%;
+    height: 49px;
+    line-height: 49px;
+    padding-left: 20px;
+}
+.title-top > span {
+    float: right;
+    color: #fff;
+    margin-right: 20px;
+    font-size: 24px;
+    position: relative;
+}
+.title-top > span:before{
+    content: url('../img/icon-home06.png');
+    position: absolute;
+    left: -30px;
+    top: 7px;
+}
+.coordinate {
+    width: 145px;
+    text-align: right;
+}
+#btn-download, #btn-create-album, #btn-checkall, #btn-removeall,#btn-dowload-pdf {
+    font-size: 18px;
+    min-width: 187px;
+}
+#btn-removeall.btn-hidden, #btn-checkall.btn-hidden { display: none;}
+/*chang at view route 2016 12 02*/
+.viewRouteLoadImageDiv {
+    position: relative;
+    height: 300px;
+}
+.viewRouteLoadImageDiv img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);    
+}
+.viewRouteLoadImageDivMobile {
+    position: relative;
+}
+/*end chang at view route*/
+
+.map-marker-label {
+    position: absolute;
+    text-align: center;
+    /*color: blue;*/
+    font-size: 12px;
+    /*font-weight: bold;*/
+}
+.dataGps .divTable table {
+    font-family: arial, sans-serif;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: separate;
+}
+.dataGps .divTableTitle table {
+    width: 100%;
+    table-layout: fixed;
+    width: calc(100% - 16.5px) !important;
+    border-collapse: separate;
+}
+.dataGps .divTableTitle td {
+    border-right: 1px solid #dddddd;
+    padding: 8px;
+}
+.dataGps .divTable td {
+    border-right: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+
+    padding: 8px;
+}
+.dataGps tr:nth-child(even) {
+/*    background-color: #dddddd;*/
+}
+.divDataGps {
+    padding: 20px;
+}
+.divDataGps .divTable{
+    overflow-y: scroll;
+    max-height: 400px;
+
+}
+.divDataGps .divTableTitle table .fContent, .divDataGps .divTable table .fContent{
+    text-align:center;
+}
+.divDataGps .divTable table .fLeft{
+    text-align:left;
+}
+.divDataGps .divTableTitle{
+    background-color: #ccc;
+}
+.divDataGps .divTableTitle table .trTitle td{
+    padding: 10px;
+}
+.divDataGps .divTable table .fix-img-dataGps{
+    width: 25px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+#filterLeft {
+    height: 35px;
+    background: #ccc;
+    border: 2px solid #999;
+    overflow: hidden;
+    font-size: 12px;
+    text-align: center;
+}
+#filterLeft div{
+    cursor: pointer;
+    height: 35px;
+    padding: 2px;
+    width: 33.33%;
+    float: left;
+    padding-left: 5px;
+}
+#filterLeft span{
+    /*margin-right: 30px;*/
+    line-height: 28px;
+    color: #000;
+}
+#filterLeft .filterUser, #filterLeft .filterId{
+    border-right: 2px solid #999;
+}
+#filterLeft .filterId{
+    width: 44%;
+}
+#filterLeft .filterDate, #filterLeft .filterUser{
+    width: 28%;
+}
+#filterLeft div img{
+    width: 20px;
+    /*float: right;*/
+    margin-bottom: 5px;
+}
+.mobile-route .table-responsive>.table>tbody>tr>td {
+    white-space: normal;
+    word-break: break-all;
+}
+@media screen and (min-width: 320px) and (max-width: 359px){
+    .table-responsive{margin-bottom:0 !important;}
+    .fix-table td {font-size: 8px;}
+    .icon-table td {font-size: 8px;}
+}
+@media screen and (max-width: 980px) {
+    #filterLeft div img{
+        width: 15px;
+        margin-bottom: 2px;
+    }
+    .version-index{
+        left: 200px;
+    }
+    #filterLeft div{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 1325px) {
+
+    .version-index{
+        left: 213px !important;
+        top: 57px !important;
+    }
+}
+#trAppWeb td label:nth-child(2){
+    padding-right:10px;
+}
+.formEditScroll{height: 85%}
+#div-scroll-table-language {
+    height: 86.88%;
+    overflow: auto;
+}
+#scroll-table-language{margin-bottom: 0;}
+.table-w-button tr td{border-top:0 !important;} 
+@media screen and (max-width: 1440px) {
+    .dataGps .divTableTitle table{
+        width: calc(100% - 17px) !important;
+    }
+    .divTableTitleVersion table{
+        width: calc(100% - 16.5px) !important;
+    }
+
+}
+@media screen and (max-width: 1396px) {
+    .dataGps .divTableTitle table{
+        width: calc(100% - 17px) !important;
+    }
+    .divTableTitleVersion table{
+        width: calc(100% - 17px) !important;
+    }
+}
+.table-list-guide thead tr th, .table-register-guide thead tr th{
+    text-align: center;
+}
+.table-list-guide tbody tr .upload-guide{
+    text-align: center;
+    vertical-align: middle;
+}
+.table-list-guide tbody tr td:nth-child(1), .table-list-guide tbody tr td:nth-child(2){
+    vertical-align: middle;
+}
+.table-list-guide tbody tr td:nth-child(4){
+    position: relative;
+}
+.table-register-guide .upload-guide, tac{
+    text-align: center;
+}
+.table-register-guide .upload-guide img{
+    max-height: 50%;
+    margin: 0 auto;
+}
+.table-register-guide .vertical-guide{
+    vertical-align: middle;
+}
+.w50p{width: 50%;}
+.table-list-guide tbody tr td .edit-guide{width: 66px;}
+.cancel-delete-guide{margin-right: 30px;}
+.modal-content{
+    width: 50%;
+    margin: 0 auto;
+}
+.addVersion {
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.table-version tbody tr td:nth-child(n+3), .table-version tbody tr td:nth-child(1){
+    text-align: center;
+}
+.table-version thead tr th{text-align: center}
+.classType label{
+    padding: 0 10px;
+}
+.divTableTitleVersion table{
+    width: 100%;
+    table-layout: fixed;
+    width: calc(100% - 17.5px);
+    border-collapse: separate;
+}
+.divTableTitleVersion table .trTitle td{
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.divTableTitleVersion{background-color: #ddd;}
+.divTableVersion table{
+    font-family: arial, sans-serif;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: separate;
+}
+.divTableVersion table tr td{
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.divTableVersion {
+    overflow-y: scroll;
+    max-height: 200px;
+}
+.divTableTitleVersion, .divTableVersion{border: 1px solid #ccc}
+.divTableVersion table tr td:nth-child(1),.divTableVersion table tr td:nth-child(2),
+.divTableTitleVersion table .trTitle td:nth-child(1), .divTableTitleVersion table .trTitle td:nth-child(2)
+{border-right: 1px solid #ccc;}
+.divTableVersion table tr td:nth-child(1){text-align: center}
+.divTableVersion table tr td:nth-child(2){text-align: center}
+.divTableTitleVersion{margin-top: 10px;}
+.divTableVersion{margin-bottom: 20px;}
+.typeTitle{font-weight: bold;}
+.clear {
+    clear: both;
+}
+.date-version td select{
+    margin-right: 10px;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.version-index{
+    position: absolute;
+    top: 32px;
+    left: 248px;
+    color: #999;
+    font-size: 12px;
+    font-weight: bold;
+}
+.editGps a,.showRouteInput {
+    cursor: pointer;
+}
+.editGps .formEditGps {
+    display: none;
+}
+.btn-route {
+    color: #fff;
+    background-color: #FF7F27; 
+    font-size: 18px !important;
+    min-width: 187px;
+    border-radius: 15px !important;
+}
+.btn-route:hover, .btn-route:focus {
+    background-color: #FF7F27;
+}
+.jconfirm .row {
+    margin: 0 auto;
+    max-width: 100%;
+}
+.hiddenMap{
+    position: absolute !important;
+    left: 14px;
+    top: 36px !important;
+}
+.mobile #content-right{
+    height: 800px;
+    display:none;
+}
+.mobile #selectMinute{
+    top: 15px;
+    right: 50px;
+}
+.showRouteInput, .editShowHide{
+    cursor:pointer;
+}
+@media screen and (max-width: 767px) {
+    .trLastDetail{
+        border-bottom: 1px solid #ddd;
+    }
+}

@@ -1,0 +1,556 @@
+--------------- Common -------------
+
+msgid "Survey Manager"
+msgstr "Survey Manager"
+
+msgid "Survey Summary"
+msgstr "Survey Summary"
+
+msgid "User Management"
+msgstr "User Management"
+
+msgid "Version Infomation"
+msgstr "Version Infomation"
+
+msgid "Logout"
+msgstr "Logout"
+
+msgid "LOGIN"
+msgstr "LOGIN"
+
+msgid "DELETED USER"
+msgstr "DELETED USER"
+
+msgid "User"
+msgstr "User"
+
+msgid "USER"
+msgstr "USER"
+
+msgid "Device ID"
+msgstr "Device ID"
+
+msgid "DEVICE ID"
+msgstr "Device ID"
+
+msgid "SURVEY ID"
+msgstr "SURVEY ID"
+
+msgid "DATE"
+msgstr "DATE"
+
+msgid "LOCATION"
+msgstr "LOCATION"
+
+msgid "Load More"
+msgstr "Load More"
+
+msgid "Survey Content"
+msgstr "Survey Content"
+
+msgid "SURVEY"
+msgstr "SURVEY"
+
+msgid "START POSITION"
+msgstr "START POSITION"
+
+msgid "START LOCATION"
+msgstr "START LOCATION"
+
+msgid "END POSITION"
+msgstr "END POSITION"
+
+msgid "END LOCATION"
+msgstr "END LOCATION"
+
+msgid "NUMBER OF PHOTOS"
+msgstr "NUMBER OF PHOTOS"
+
+msgid "LATITUDE"
+msgstr "LATITUDE"
+
+msgid "LAT"
+msgstr "LAT"
+
+msgid "LON"
+msgstr "LON"
+
+msgid "LONGTITUDE"
+msgstr "LONGTITUDE"
+
+msgid "DIRECTION"
+msgstr "DIRECTION"
+
+msgid "IMAGE SIZE"
+msgstr "IMAGE SIZE"
+
+msgid "FILE SIZE"
+msgstr "FILE SIZE"
+
+msgid "COMMENT"
+msgstr "COMMENT"
+
+msgid "Remove All"
+msgstr "Remove All"
+
+msgid "Check All"
+msgstr "Check All"
+
+msgid "Download photos"
+msgstr "Download photos"
+
+msgid "Create a photo book"
+msgstr "Create a photo book"
+----------------------------End Common -----------------
+
+
+--------------- Login : src\Template\UserAuth\login.ctp -------------
+
+msgid "Inquiry to the Administrator & Developer"
+msgstr "Inquiry to the Administrator & Developer"
+
+msgid "Copyright © CHODAI CO.,LTD. , 2016 All Rights Reserved."
+msgstr "Copyright © CHODAI CO.,LTD. , 2016 All Rights Reserved."
+
+msgid "Password"
+msgstr "Password"
+
+msgid "Remember USE ID & Password"
+msgstr "Remember USE ID & Password"
+
+
+----------------------------End Login -----------------
+
+
+--------------- Add : \src\Template\Surveys\add.ctp -------------
+
+msgid "Add User"
+msgstr "Add User"
+
+msgid "Submit"
+msgstr "Submit"
+
+----------------------------End Add -----------------
+
+--------------- Policy : src\Template\Pages\policy.ctp -------------
+
+msgid "policyH1"
+msgstr "プライバシーポリシー"
+
+msgid "policyDetail1"
+msgstr "弊社では、このアプリ・ウェブサイトを安心してご利用いいただくために、個人情報の取り扱いについて以下のとおり定めております。"
+
+msgid "policyH2"
+msgstr "個人情報について"
+
+msgid "policyDetail2"
+msgstr "ここに述べられている「個人情報」とは、お客様の氏名、住所、電話番号、電子メールアドレスなど特定の個人を識別することができる情報をいいます。"
+
+msgid "policyH3"
+msgstr "収集した個人情報の取り扱い"
+
+msgid "policyDetail3"
+msgstr "弊社がこのアプリ・ウェブサイトを通じて収集した個人情報は、お客様の同意を得た場合や、法令等に基づき開示または提供することが義務づけられたとき以外には、第三者に開示あるいは提供しません。"
+
+msgid "policyH4"
+msgstr "個人情報の取り扱いの適用範囲"
+
+msgid "policyDetail4"
+msgstr "この「個人情報の取り扱い」の適用範囲は、アプリ・ウェブサイトに限定されます。このウェブサイトにリンクされた、他のウェブサイトでの個人情報の取り扱いについて、責任を負うものではありません。"
+
+msgid "policyH5"
+msgstr "個人情報に関するお問合せ"
+
+msgid "policyDetail5"
+msgstr "個人情報をご提供いただいたお客様が、ご自身の個人情報の照会、修正、削除等を希望される場合には、合理的な範囲内で対応させていただきます。"
+
+msgid "policyH6"
+msgstr "アクセスログの利用について"
+
+msgid "policyDetail6"
+msgstr "弊社サイトへのアクセスの傾向を分析するため、また当社ウェブサイトで発生した問題を解決するために、アクセスされた日時、ＩＰアドレス、ドメイン等を記録させていただいておりますが、そのデータからお客様個人を特定する情報は含まれておりません。"
+msgid "policyH7"
+msgstr "お問い合わせ先"
+
+msgid "policyDetail71"
+msgstr "このウェブサイトに関するお問い合わせは、"
+
+msgid "policyDetail72"
+msgstr "迄お願い致します。"
+
+msgid "policyDetail73"
+msgstr "弊社は以上の方針について適宜見直しを行い、改訂することがあります。すべての
+改訂はこのページでお知らせいたします。"
+
+
+----------------------------End Policy -----------------
+
+--------------- Add Edit Index Vesion  : src\Template\Users\add.ctp\edit.ctp\index.ctp\vesion.ctp -------------
+
+msgid "Create a new user"
+msgstr "Create a new user"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Username"
+msgstr "Username"
+
+msgid "Types"
+msgstr "Types"
+
+msgid "Cancel"
+msgstr "Cancel"
+
+msgid "User No"
+msgstr "User No"
+
+msgid "User Basic Information"
+msgstr "User Basic Information"
+
+msgid "Delete"
+msgstr "Delete"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "User List"
+msgstr "User List"
+
+msgid "Registered Date"
+msgstr "Registered Date"
+
+msgid "Admin"
+msgstr "Admin"
+
+msgid "ADMIN"
+msgstr "管理者"
+
+msgid "Version"
+msgstr "Version"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "Content of change"
+msgstr "Content of change"
+
+
+----------------------------End Add Edit Index Vesion -----------------
+
+
+
+--------------- Email -------------
+
+msgid "Thank you for using Chodai Survey Manager App"
+msgstr "Thank you for using Chodai Survey Manager App"
+
+msgid "Your ID and Password are as below"
+msgstr "Your ID and Password are as below"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Best Regards"
+msgstr "Best Regards"
+
+msgid "CSM Admin"
+msgstr "CSM Admin"
+
+-------------End Email -----------------
+
+--------------- Flash -------------
+
+msgid "Please select survey"
+msgstr "Please select survey"
+
+msgid "The user has been saved"
+msgstr "The user has been saved"
+
+msgid "Unable to add the user"
+msgstr "Unable to add the user"
+
+msgid "The user name or password is incorrect. Please check your user name or password and login again."
+msgstr "The user name or password is incorrect. Please check your user name or password and login again."
+
+-------------End Flash -----------------
+
+--------------- VALIDATE -------------
+
+msgid "Please input here"
+msgstr "Please input here"
+
+msgid "Username already exists"
+msgstr "Username already exists"
+
+msgid "Please input character by numbers or alphabet letters"
+msgstr "Please input character by numbers or alphabet letters"
+
+msgid "Please input email\'s format"
+msgstr "Please input email\'s format"
+
+msgid "Please input gmail\'s format"
+msgstr "Please input gmail\'s format"
+
+msgid "Please input 8 to 15 character by numbers and letters"
+msgstr "Please input 8 to 15 character by numbers and letters"
+
+-------------End VALIDATE -----------------
+
+---------------------------------
+
+msgid "User Types"
+msgstr "User Types"
+
+msgid "Use Types"
+msgstr "Use Types"
+
+msgid "Company Email"
+msgstr "Company Email"
+
+msgid "Gmail"
+msgstr "Gmail"
+
+msgid "Download GPS data"
+msgstr "Survey list and data download"
+
+msgid "App-Web Operation Assistant"
+msgstr "App-Web Operation Assistant"
+
+msgid "Web Operation Assistant"
+msgstr "Web Operation Assistant"
+
+msgid "App+Web"
+msgstr "App+Web"
+
+msgid "Create a new app language"
+msgstr "Create a new app language"
+
+msgid "App Language Setting"
+msgstr "App Language Setting"
+
+msgid "Index"
+msgstr "Index"
+
+msgid "Language"
+msgstr "Language"
+
+msgid "Publish"
+msgstr "Publish"
+
+msgid "Created"
+msgstr "Created"
+
+msgid "Edit"
+msgstr "Edit"
+
+msgid "Edit Detail"
+msgstr "Edit Detail"
+
+msgid "Language already exists"
+msgstr "Language already exists"
+
+msgid "Edit app language"
+msgstr "Edit app language"
+
+msgid "Yes"
+msgstr "Yes"
+
+msgid "YES"
+msgstr "YES"
+
+msgid "No"
+msgstr "No"
+
+msgid "Are you sure want to delete this language?"
+msgstr "Are you sure want to delete this language?"
+
+msgid "Dear"
+msgstr "Dear"
+
+msgid "SAN_JP"
+msgstr " "
+
+msgid "This survey was completed."
+msgstr "This survey was completed."
+
+msgid "The Overview of the survey is as below"
+msgstr "The Overview of the survey is as below"
+
+msgid "Click here"
+msgstr "Click here"
+
+msgid "Please check the photos you want to download or create a photo book"
+msgstr "Please check the photos you want to download or create a photo book"
+
+msgid "Register "NEW USER""
+msgstr "Register "NEW USER""
+
+msgid "Register "NEW LANGUAGE APP""
+msgstr "Register "NEW LANGUAGE APP""
+
+msgid "minute"
+msgstr "minute"
+
+msgid "minutes"
+msgstr "minutes"
+
+msgid "Date / Time"
+msgstr "Date / Time"
+
+msgid "LAT / LON"
+msgstr "LAT / LON"
+
+msgid "Survey Details"
+msgstr "Survey Details"
+
+msgid "Version Information"
+msgstr "Version Information"
+
+msgid "Download PDF"
+msgstr "Download PDF"
+
+msgid "Edit Guide"
+msgstr "Edit Guide"
+
+msgid "Shortname"
+msgstr "Shortname"
+
+msgid "Show"
+msgstr "Show"
+
+msgid "Hidden"
+msgstr "Hidden"
+
+msgid "Please input username or email"
+msgstr "Please input username or email"
+
+msgid "Search"
+msgstr "Search"
+
+msgid "The language has been saved"
+msgstr "The language has been saved"
+
+msgid "SURVEY NO"
+msgstr "SURVEY NO"
+
+msgid "TIME"
+msgstr "TIME"
+
+msgid "PHOTO"
+msgstr "PHOTO"
+
+msgid "App Guide"
+msgstr "App Guide"
+
+msgid "Title"
+msgstr "Title"
+
+msgid "Image"
+msgstr "Image"
+
+msgid "Edit and Delete Guide"
+msgstr "Edit and Delete Guide"
+
+msgid "Delete Guide"
+msgstr "Delete Guide"
+
+msgid "Upload Image"
+msgstr "Upload Image"
+
+msgid "Edit a new app language"
+msgstr "Edit a new app language"
+
+msgid "Register "NEW GUIDE""
+msgstr "Register "NEW GUIDE""
+
+msgid "Key"
+msgstr "Key"
+
+msgid "Edit / Delete"
+msgstr "Edit / Delete"
+
+msgid "Are you sure want to delete?"
+msgstr "Are you sure want to delete?"
+
+msgid "Delete success"
+msgstr "Delete success"
+
+msgid "Language Edit"
+msgstr "Language Edit"
+
+msgid "User Guide Edit"
+msgstr "User Guide Edit"
+
+msgid "GPS Improvement Edit"
+msgstr "GPS Improvement Edit"
+
+msgid "App Version Edit"
+msgstr "App Version Edit"
+
+msgid "Add New Index"
+msgstr "Add New Index"
+
+msgid "SHOW"
+msgstr "SHOW"
+
+msgid "App Setting"
+msgstr "App Setting"
+
+msgid "Delete GPS Improvement"
+msgstr "Delete GPS Improvement"
+
+msgid "Register GPS Improvement"
+msgstr "Register GPS Improvement"
+
+msgid "Create GPS Improvement"
+msgstr "Create GPS Improvement"
+
+msgid "Register Guide"
+msgstr "Register Guide"
+
+msgid "Create Guide"
+msgstr "Create Guide"
+
+msgid "iOS"
+msgstr "iOS"
+
+msgid "android"
+msgstr "android"
+
+msgid "Register "NEW VERSION""
+msgstr "Register "NEW VERSION""
+
+msgid "Web"
+msgstr "Web"
+
+msgid "Edit Version"
+msgstr "Edit Version"
+
+msgid "App Language Edit"
+msgstr "App Language Edit"
+
+msgid "Translate Language"
+msgstr "Translate Language"
+
+msgid "Update success"
+msgstr "Update success"
+
+msgid "Have a new survey!"
+msgstr "Have a new survey!"
+
+msgid "NO"
+msgstr "NO"
+
+msgid "Delete Image"
+msgstr "Delete Image"
+
+msgid "Delete Image GPS Improvement"
+msgstr "Delete Image GPS Improvement"
+
+msgid "Delete Image Guide"
+msgstr "Delete Image Guide"
+
+msgid "Correct GPS data"
+msgstr "Correct GPS data"
+---------------------------------

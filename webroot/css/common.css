@@ -1,0 +1,77 @@
+.error, .error-message {
+    color: #f04124;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.mb15 {
+    margin-bottom: 15px;
+}
+.ov {
+    overflow: hidden;
+}
+.mb20 {
+    margin-bottom: 20px;
+}
+.mt10 {
+    margin-top: 10px;
+}
+.mt20 {
+    margin-top: 20px;
+}
+.mt25 {
+    margin-top: 25px;
+}
+.mt30 {
+    margin-top: 30px;
+}
+.mt40 {
+    margin-top: 40px;
+}
+.mt55 {
+    margin-top: 55px;
+}
+.ml15 {
+    margin-left: 15px;
+}
+.ml20 {
+    margin-left: 20px;
+}
+.pd25 {
+    padding: 25px;
+}
+
+
+.w320 {
+    width: 320px;
+}
+.w290 {
+    width: 290px;
+}
+.w165 {
+    width: 165px;
+}
+.mr10 {
+    margin-right: 10px;
+}
+
+.mr20 {
+    margin-right: 20px;
+}
+.pl10{
+    padding-left: 10px !important;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+
+img {
+    max-width: 100%;
+}
+.headMenu {
+    position: absolute;
+    left: 100px;
+    top: 145px;
+}

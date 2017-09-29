@@ -1,0 +1,159 @@
+/*.form-signin {
+    width: 400px;
+    padding:20px;
+    border: 1px solid #f7904a;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    -moz-box-shadow: -1px 0px 11px #f3ab7a;
+    -webkit-box-shadow: -1px 0px 11px #f3ab7a;
+    box-shadow: -1px 0px 11px #f3ab7a;
+}*/
+body{
+    overflow: hidden;
+    font-family: Century Gothic;
+
+}
+.fix-login{
+    width: 430px;
+    padding-top: 50%;
+    font-family: Century Gothic;
+    float:right;
+    color: #fff;
+}
+.bg-login{
+    width: 772px;
+    height: 443px;
+    margin: 0 auto;
+    position: relative;
+    background: url(../img/c-login01.png) center right no-repeat;
+    /*background-size: cover;*/
+}
+.bg-login > p{
+    position: absolute;
+    bottom: 20px;
+    font-size: 10px;
+    left: 60px;
+}
+.bg-login > p:before {
+    content: url('../img/group02-login.png');
+    position: relative;
+    top: 10px;
+    right: 2px;
+}
+.bg-login > span{
+    position: absolute;
+    bottom: 10px;
+    color: #fff;
+    right: 10px;
+    font-size: 8px;
+}
+.checkbox-login{
+    position: relative;
+    top:4px;
+    width: 18px;
+    height: 18px;
+    margin-left: 10px !important;
+}
+.button-submit-login{
+    width: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 15px;
+    float: right;
+    color: #000;
+    border: 0;
+    outline: none;    
+}
+.error{
+    font-size: 11px !important;
+    padding-left: 50%;
+}
+.img-login{
+    float: right;
+    margin-right: 30px;
+}
+.img-materials{
+    margin: 28px 10px 0 0;
+    float: right;
+
+}
+.remember > label{
+    font-family: Century Gothic;
+    font-size:10px;
+    font-weight: 100; 
+}
+.remember{
+    text-align: right;
+    margin-right: 4px;
+}
+.remember input[type=checkbox]{
+    margin-left: 5px !important;
+}
+
+.login-left > p{
+    padding-top: 120%;
+    margin-bottom: 0px;
+    float: right;
+    font-size: 10px;
+}
+.fix-login > p{
+    text-align: right;
+    font-size: 9px;
+    margin-bottom: 8px;
+}
+.fix-login > h2 {
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 100px;
+    margin-top: 0 !important;
+    margin-bottom: 15px !important;
+
+}
+.form-group-fix > input {
+    width: 150px;
+    height: 25px;
+    float: right;
+}
+.form-group-fix{
+    text-align: right;
+}
+.form-group-fix > label{
+    margin-right: 10px;
+}
+.form-group{
+    margin-bottom: 5px !important;
+}
+.form-group > label{
+    font-weight: normal !important;
+    font-size: 14px;
+}
+.policy h4, .policy h2{
+    font-weight: bold;
+    color: #2E8B57;
+}
+.policy h2 {
+    text-align: center;
+}
+.policy .title-top{
+    background: url('../img/icon-home04.png') no-repeat transparent;
+    background-size: 100% 100%;
+    height: 49px;
+    line-height: 49px;
+    padding-left: 20px;
+}
+/*.title-top > span {
+    float: right;
+    color: #fff;
+    margin-right: 20px;
+    font-size: 24px;
+    position: relative;
+}*/
+.policy .title-top > span:before{
+    content: url('../img/icon-home06.png');
+    position: absolute;
+    left: -30px;
+    top: 7px;
+}

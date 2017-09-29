@@ -1,0 +1,591 @@
+--------------- Common -------------
+
+msgid "Survey Manager"
+msgstr "調査管理"
+
+msgid "Survey Summary"
+msgstr "調査概要"
+
+msgid "User Management"
+msgstr "ユーザー管理"
+
+msgid "Version Infomation"
+msgstr "バージョン情報"
+
+msgid "Logout"
+msgstr "ログアウト"
+
+msgid "LOGIN"
+msgstr "ログイン"
+
+msgid "DELETED USER"
+msgstr "ユーザー削除"
+
+msgid "User"
+msgstr "ユーザー"
+
+msgid "USER"
+msgstr "ユーザー"
+
+msgid "Device ID"
+msgstr "端末ID"
+
+msgid "DEVICE ID"
+msgstr "端末ID"
+
+msgid "SURVEY ID"
+msgstr "調査ID"
+
+msgid "DATE"
+msgstr "日付"
+
+msgid "LOCATION"
+msgstr "場所"
+
+msgid "Load More"
+msgstr "更に読込"
+
+msgid "Survey Content"
+msgstr "調査内容"
+
+msgid "SURVEY"
+msgstr "調査"
+
+msgid "START POSITION"
+msgstr "調査開始位置"
+
+msgid "START LOCATION"
+msgstr "調査開始場所"
+
+msgid "END POSITION"
+msgstr "調査終了位置"
+
+msgid "END LOCATION"
+msgstr "調査終了場所"
+
+msgid "NUMBER OF PHOTOS"
+msgstr "写真数"
+
+msgid "LATITUDE"
+msgstr "緯度"
+
+msgid "LAT"
+msgstr "緯度"
+
+msgid "LONGTITUDE"
+msgstr "経度"
+
+msgid "LON"
+msgstr "経度"
+
+msgid "DIRECTION"
+msgstr "方向"
+
+msgid "IMAGE SIZE"
+msgstr "写真サイズ"
+
+msgid "FILE SIZE"
+msgstr "ファイルサイズ"
+
+msgid "COMMENT"
+msgstr "コメント"
+
+msgid "Remove All"
+msgstr "全除去"
+
+msgid "Check All"
+msgstr "全選択"
+
+msgid "Download photos"
+msgstr "写真ダウンロード"
+
+msgid "Create a photo book"
+msgstr "写真帳作成"
+----------------------------End Common -----------------
+
+
+--------------- Login : src\Template\UserAuth\login.ctp -------------
+
+msgid "Inquiry to the Administrator & Developer"
+msgstr "お問合わせ"
+
+msgid "Copyright © CHODAI CO.,LTD. , 2016 All Rights Reserved."
+msgstr "Copyright © CHODAI CO.,LTD. , 2016 All Rights Reserved."
+
+msgid "Password"
+msgstr "パスワード"
+
+msgid "Remember USE ID & Password"
+msgstr "次回から自動的にログイン"
+
+
+----------------------------End Login -----------------
+
+
+--------------- Add : \src\Template\Surveys\add.ctp -------------
+
+msgid "Add User"
+msgstr "ユーザー追加"
+
+msgid "Submit"
+msgstr "提出"
+
+----------------------------End Add -----------------
+
+--------------- Policy : src\Template\Pages\policy.ctp -------------
+
+msgid "policyH1"
+msgstr "プライバシーポリシー"
+
+msgid "policyDetail1"
+msgstr "弊社では、このアプリ・ウェブサイトを安心してご利用いいただくために、個人情報の取り扱いについて以下のとおり定めております。"
+
+msgid "policyH2"
+msgstr "個人情報について"
+
+msgid "policyDetail2"
+msgstr "ここに述べられている「個人情報」とは、お客様の氏名、住所、電話番号、電子メールアドレスなど特定の個人を識別することができる情報をいいます。"
+
+msgid "policyH3"
+msgstr "収集した個人情報の取り扱い"
+
+msgid "policyDetail3"
+msgstr "弊社がこのアプリ・ウェブサイトを通じて収集した個人情報は、お客様の同意を得た場合や、法令等に基づき開示または提供することが義務づけられたとき以外には、第三者に開示あるいは提供しません。"
+
+msgid "policyH4"
+msgstr "個人情報の取り扱いの適用範囲"
+
+msgid "policyDetail4"
+msgstr "この「個人情報の取り扱い」の適用範囲は、アプリ・ウェブサイトに限定されます。このウェブサイトにリンクされた、他のウェブサイトでの個人情報の取り扱いについて、責任を負うものではありません。"
+
+msgid "policyH5"
+msgstr "個人情報に関するお問合せ"
+
+msgid "policyDetail5"
+msgstr "個人情報をご提供いただいたお客様が、ご自身の個人情報の照会、修正、削除等を希望される場合には、合理的な範囲内で対応させていただきます。"
+
+msgid "policyH6"
+msgstr "アクセスログの利用について"
+
+msgid "policyDetail6"
+msgstr "弊社サイトへのアクセスの傾向を分析するため、また当社ウェブサイトで発生した問題を解決するために、アクセスされた日時、ＩＰアドレス、ドメイン等を記録させていただいておりますが、そのデータからお客様個人を特定する情報は含まれておりません。"
+msgid "policyH7"
+msgstr "お問い合わせ先"
+
+msgid "policyDetail71"
+msgstr "このウェブサイトに関するお問い合わせは、"
+
+msgid "policyDetail72"
+msgstr "迄お願い致します。"
+
+msgid "policyDetail73"
+msgstr "弊社は以上の方針について適宜見直しを行い、改訂することがあります。すべての
+改訂はこのページでお知らせいたします。"
+
+
+----------------------------End Policy -----------------
+
+--------------- Add Edit Index Vesion  : src\Template\Users\add.ctp\edit.ctp\index.ctp\vesion.ctp -------------
+
+msgid "Create a new user"
+msgstr "新規ユーザー作成"
+
+msgid "Email"
+msgstr "メール"
+
+msgid "Username"
+msgstr "ユーザー名"
+
+msgid "Types"
+msgstr "タイプ"
+
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgid "User No"
+msgstr "ユーザーNo"
+
+msgid "User Basic Information"
+msgstr "ユーザー基本情報"
+
+msgid "Delete"
+msgstr "削除"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "User List"
+msgstr "ユーザー一覧表"
+
+msgid "Registered Date"
+msgstr "登録日"
+
+msgid "Admin"
+msgstr "管理者"
+
+msgid "ADMIN"
+msgstr "管理者"
+
+msgid "Version"
+msgstr "バージョン"
+
+msgid "Date"
+msgstr "日付"
+
+msgid "Content of change"
+msgstr "内容の変更"
+
+
+----------------------------End Add Edit Index Vesion -----------------
+
+
+
+--------------- Email -------------
+
+msgid "Thank you for using Chodai Survey Manager App"
+msgstr "Chodai Survey Managerをご利用ありがとうございました。"
+
+msgid "Your ID and Password are as below"
+msgstr "IDとパスワードは下記となります。"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Best Regards"
+msgstr "よろしくお願いいたします。"
+
+msgid "CSM Admin"
+msgstr "CSM管理者"
+
+-------------End Email -----------------
+
+--------------- Flash -------------
+
+msgid "Please select survey"
+msgstr "調査を選択してください"
+
+msgid "The user has been saved"
+msgstr "ユーザーが保存されました。"
+
+msgid "Unable to add the user"
+msgstr "ユーザーが追加できません"
+
+msgid "The user name or password is incorrect. Please check your user name or password and login again."
+msgstr "ユーザー名、またはパスワードが正しくありません。ご確認のうえ、再度ログインしてください。"
+
+-------------End Flash -----------------
+
+--------------- VALIDATE -------------
+
+msgid "Please input here"
+msgstr "ここに入力ください"
+
+msgid "Username already exists"
+msgstr "このユーザー名は既に使用されています"
+
+msgid "Please input character by numbers or alphabet letters"
+msgstr "半角数字、半角アルファベットを入力してください。"
+
+msgid "Please input email\'s format"
+msgstr "Emailアドレスを入力してください。"
+
+msgid "Please input gmail\'s format"
+msgstr "Gmailアドレスを入力してください。（アプリをダウンロードする際に必要となります。）"
+
+msgid "Please input 8 to 15 character by numbers and letters"
+msgstr " パスワードは8から15桁で、文字と数字の2種類を含めて作成ください。"
+
+-------------End VALIDATE -----------------
+
+---------------------------------
+
+msgid "User Types"
+msgstr "ユーザータイプ"
+
+msgid "Use Types"
+msgstr "利用タイプ"
+
+msgid "Company Email"
+msgstr "Email"
+
+msgid "Gmail"
+msgstr "Gmail"
+
+msgid "Download GPS data"
+msgstr "調査リストとデータダウンロード"
+
+msgid "Survey list and data download"
+msgstr "調査リストとデータダウンロード"
+
+msgid "App-Web Operation Assistant"
+msgstr "App-Web Operation Assistant"
+
+msgid "Web Operation Assistant"
+msgstr "Web Operation Assistant"
+
+msgid "App+Web"
+msgstr "App+Web"
+
+msgid "Create a new app language"
+msgstr "アプリ言語追加"
+
+msgid "App Language Setting"
+msgstr "アプリ言語設定"
+
+msgid "Index"
+msgstr "インデックス"
+
+msgid "Language"
+msgstr "言語"
+
+msgid "Publish"
+msgstr "公開"
+
+msgid "Created"
+msgstr "作成"
+
+msgid "Edit"
+msgstr "編集"
+
+msgid "Edit Detail"
+msgstr "詳細編集"
+
+msgid "Language already exists"
+msgstr "この言語は、既に登録されています。"
+
+msgid "Edit app language"
+msgstr "アプリ言語の編集"
+
+msgid "Yes"
+msgstr "はい"
+
+msgid "YES"
+msgstr "はい"
+
+msgid "No"
+msgstr "No"
+
+msgid "Are you sure want to delete this language?"
+msgstr "この言語を削除しますか？"
+
+msgid "Dear"
+msgstr " "
+
+msgid "SAN_JP"
+msgstr "様"
+
+msgid "This survey was completed."
+msgstr "Chodai Survey Managerでの調査が完了しました。"
+
+msgid "The Overview of the survey is as below"
+msgstr "この調査の概要は、以下のとおりです。"
+
+msgid "ここにクリックください"
+msgstr "Click here"
+
+msgid "Please check the photos you want to download or create a photo book"
+msgstr "ダウンロードしたい写真、または写真帳を作成する写真にチェックしてください。"
+
+msgid "Register "NEW USER""
+msgstr "新規ユーザーの登録"
+
+msgid "Register "NEW LANGUAGE APP""
+msgstr "新規アプリ言語の登録"
+
+msgid "minute"
+msgstr "分"
+
+msgid "minutes"
+msgstr "分"
+
+msgid "Date / Time"
+msgstr "日時"
+
+msgid "LAT / LON"
+msgstr "緯度/経度"
+
+msgid "Survey Details"
+msgstr "調査の詳細"
+
+msgid "Version Information"
+msgstr "バージョン情報"
+
+msgid "Download PDF"
+msgstr "PDFダウンロード"
+
+msgid "Edit Guide"
+msgstr "アプリ使い方の編集"
+
+msgid "Shortname"
+msgstr "短い名前"
+
+msgid "Show"
+msgstr "表示"
+
+msgid "Hidden"
+msgstr "非表示"
+
+msgid "Please input username or email"
+msgstr "ユーザー名またはメールアドレスを入力してください"
+
+msgid "Search"
+msgstr "検索"
+
+msgid "The language has been saved"
+msgstr "この言語が保存されました。"
+
+msgid "SURVEY NO"
+msgstr "調査No"
+
+msgid "TIME"
+msgstr "時間"
+
+msgid "PHOTO"
+msgstr "写真"
+
+msgid "Key"
+msgstr "Key"
+
+msgid "App Guide"
+msgstr "App Guide"
+
+msgid "Title"
+msgstr "タイトル"
+
+msgid "Image"
+msgstr "イメージ"
+
+msgid "Edit and Delete Guide"
+msgstr "Edit and Delete Guide"
+
+msgid "Delete Guide"
+msgstr "ガイド削除"
+
+msgid "Upload Image"
+msgstr "イメージアップロード"
+
+msgid "Edit a new app language"
+msgstr "新アプリの言語の編集"
+
+msgid "Register "NEW GUIDE""
+msgstr "Register "NEW GUIDE""
+
+msgid "Key"
+msgstr "キー"
+
+msgid "Edit / Delete"
+msgstr "編集/削除"
+
+msgid "Are you sure want to delete?"
+msgstr "この項目を削除しますか？"
+
+msgid "Delete success"
+msgstr "削除されました"
+
+msgid "Language Edit"
+msgstr "言語の編集"
+
+msgid "User Guide Edit"
+msgstr "ユーザーガイドの編集"
+
+msgid "GPS Improvement Edit"
+msgstr "GPS精度改善の編集"
+
+msgid "App Version Edit"
+msgstr "アプリバージョンの編集"
+
+msgid "Add New Index"
+msgstr "項目の追加"
+
+msgid "SHOW"
+msgstr "表示"
+
+msgid "App Setting"
+msgstr "アプリ設定"
+
+msgid "Delete GPS Improvement"
+msgstr "GPS精度改善の削除"
+
+msgid "Register GPS Improvement"
+msgstr "GPS精度改善の登録"
+
+msgid "Create GPS Improvement"
+msgstr "GPS精度改善の作成"
+
+msgid "Register Guide"
+msgstr "ガイドの登録"
+
+msgid "Create Guide"
+msgstr "ガイドの作成"
+
+msgid "iOS"
+msgstr "iOS"
+
+msgid "android"
+msgstr "android"
+
+msgid "Register "NEW VERSION""
+msgstr "新バージョンの登録"
+
+msgid "Web"
+msgstr "Web"
+
+msgid "Edit Version"
+msgstr "バージョンの編集"
+
+msgid "App Language Edit"
+msgstr "アプリ言語の編集"
+
+
+msgid "Translate Language"
+msgstr "言語翻訳"
+
+msgid "Update success"
+msgstr "更新完了"
+
+msgid "Have a new survey!"
+msgstr "調査完了のご報告"
+
+msgid "NO"
+msgstr "いいえ"
+
+
+msgid "Delete Image"
+msgstr "イメージ削除"
+
+msgid "Delete Image GPS Improvement"
+msgstr "GPS改良イメージ削除"
+
+msgid "Delete Image Guide"
+msgstr "ガイドのイメージ削除"
+
+msgid "Fix survey GPS"
+msgstr "調査GPSの修正"
+
+msgid "Correct GPS data"
+msgstr "調査のGPS修正"
+
+msgid "GPS Point Show/Hide"
+msgstr "GPS ポイント表示/非表示"
+
+msgid "Please input GPS time"
+msgstr "日付を入力してください"
+
+msgid "The format is not correct"
+msgstr "入力したデータが不正です。"
+
+msgid "Back"
+msgstr "戻る"
+
+msgid "Confirm"
+msgstr "確認"
+
+msgid "Are you sure to correct the GPS data?"
+msgstr "この調査のGPSデータを修正しますか？"
+
+msgid "Are you sure to public this survey?"
+msgstr "この調査を公開しますか？"
+
+msgid "Are you sure to unpublic this survey?"
+msgstr "この調査を非公開しますか？"
+---------------------------------

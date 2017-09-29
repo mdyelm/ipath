@@ -1,0 +1,27 @@
+input#admin-flg-0, input#publish-flg-0{
+    margin-right:5px;
+}
+input#admin-flg-1, input#publish-flg-1 {
+    margin-left: 20px;
+    margin-right: 5px;
+}
+.version-table tbody tr th {
+    border-bottom:  none;
+}
+.version-table td, .version-table th {
+    min-height: 18px;
+}
+.version-table .ver-col-1 {
+    width: 5%;
+    border-top: none;
+    border-bottom: none;
+}
+.version-table .ver-col-2 {
+    width: 15%;
+}
+.version-table .ver-col-3 {
+    width: 20%;
+}
+.version-table .ver-col-4 {
+    width: 60%;
+}
